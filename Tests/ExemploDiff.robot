@@ -15,6 +15,6 @@ Cenário de Testes 02 - Conferir conteúdo de dois arquivos (Salmo 91 e Salmo 22
 
 Cenário de Testes 03 - Conferir saída de conteúdo do arquivo (Salmo 91 e Salmo 22) com sucesso.
     ${Salmo91}    Remove String    ${Archive.Salmo91}    \\Tests
-    ${Salmo22}    Remove String    ${Archive.Salmo22}    \\Tests    
+    ${Salmo22}    Remove String    ${Archive.Salmo22}    \\Tests
     Diff Outputs    ${Salmo91}    ${Salmo91}
     Diff Outputs    ${Salmo22}    ${Salmo22}
